@@ -4,7 +4,7 @@ int main()
 {
     float num;
     int resultado=1;
-    printf("Escolha um Número Inteiro para se calcular o fatorial");
+    printf("Escolha um Número Inteiro para se calcular o fatorial:");
     scanf("%f", &num);
     while(num != (int)num)
      {
