@@ -11,7 +11,7 @@ int main()
        printf("Número Inválido.Por Favor insira novo número:");
        scanf("%f", &num);
      }
-     for (num=num;num>0;num--)
+     for (;num>0;num--)
       resultado*=num;
     printf("O fatorial desse número é:%d",resultado);  
              
