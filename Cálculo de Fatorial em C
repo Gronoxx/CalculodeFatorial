@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    float num;
+    int resultado=1;
+    printf("Escolha um Número Inteiro para se calcular o fatorial");
+    scanf("%f", &num);
+    while(num != (int)num)
+     {
+       printf("Número Inválido.Por Favor insira novo número:");
+       scanf("%f", &num);
+     }
+     for (num=num;num>0;num--)
+      resultado*=num;
+    printf("O fatorial desse número é:%d",resultado);  
+             
+     
+     
+    return 0;
+}
